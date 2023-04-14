@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"
+    <title></title>
+</head>
+<body>
+    <form>
+        <label for="fname">Apellido:</label>
+        <input type="text" name="Apellido" value="">
+        <label for="fname">Nombre:</label>
+        <input type="text" name="Nombre" value="">
+        <label for="fname">Sexo:</label>
+        <select name="Sexo">
+            <option value="F">Femenino</option>
+            <option value="M">Masculino</option>
+        </select>
+        <br>
+        <label for="fname">Edad:</label><br>
+        <br>
+        <input type="radio" name="edad" value="menor de 18">Menor de 18
+        <input type="radio" name="edad" value="mayor de 18">Mayor de 18<br>
+        <br>
+        <label for="fname">Idiomas:</label><br>
+        <select size="4" name="idiomas" multiple>
+            <option value="Inglés">Inglés</option>
+            <option value="Francés">Francés</option>
+            <option value="Alemán">Alemán</option>
+            <option value="Holandés">Holandés</option>
+        </select>
+        <br><br>
+        <label for="fname">Extras:</label><br>
+        <input type="checkbox" name="extras" value="Auto">Auto
+        <input type="checkbox" name="extras" value="Camioneta">Camioneta
+        <input type="checkbox" name="extras" value="Camión">Camión<br>
+        <br>
+        <textarea name="comentario">Comentarios...</textarea><br>
+        <input type="submit">
+        <input type="reset" value="Borrar datos">
+</form>
+</body>
+</html>
